@@ -1,0 +1,116 @@
+body {
+  line-height: 1.5;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  background-color: #f8faff !important;
+}
+/*Navigation*/
+nav ul li a{
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color:#3e396b ; 
+  padding: 0px 5px;
+  margin-left: 15px;
+}
+/*Navigation Button*/
+.btn-static-primary{
+   border: none;
+    /*color: #fff;*/
+    background-image: linear-gradient(284deg, #1cc7d0, #2dde98);
+}
+.btn-static-primary.btn-shadow {
+    box-shadow: 0 2px 6px 0 rgba(45,222,152,0.4);
+}
+.btn {   
+    text-align: center;
+    vertical-align: middle;
+    height: 29px;
+    border-radius: 29px;
+    padding:4px 32px !important; 
+    color: white;    
+    box-sizing: border-box;   
+    transition: box-shadow .2s ease, background 0.2s ease, transform 0.1s ease !important;
+    will-change: background, transform, box-shadow;
+    }
+.btn:hover {
+  color: none !important;
+}
+
+
+/*==============
+    Search 
+===============*/
+.hero__form {
+    position: relative;
+    bottom: 268px;
+    right: 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+/*.form-group--search {
+    position: absolute;
+}*/
+.form-group--search--left .form-control, .form-group--search--left .input-text, .form-group--search--left #user_login, .form-group--search--left #user_pass {
+    padding-left: 38px;
+    height: 111px;
+}
+.form-control--rounded {
+    border-radius: 70px;
+}
+.form-group--search--left .btn-submit {
+    left: 10px;
+}
+.form-group--search .btn-submit {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: -1px;
+    height: 100%;
+    color: #838E95;
+    padding-left: 2px;
+    padding-right: 0;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+
+/*==================
+  skewY() Begins
+====================*/
+.tilt{
+    content: '';
+    display: block;
+    /*position: absolute;*/
+    width: 100%;
+    height: 350px;
+    background: white;
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    z-index: 0;
+    top: -170px;
+    z-index: 1;
+    box-shadow: rgba(112,128,175,0.2) 0 -16px 24px;
+}
+
+.tiltbody{
+  position: relative;
+  top:-236px;
+}
+
+.case-vid video{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+        border-radius: 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .asd {
+        display: none;
+    }
+}
