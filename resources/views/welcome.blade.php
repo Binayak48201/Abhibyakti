@@ -35,13 +35,12 @@
 
 	  	  	<div class="col-md-6">
 			   <video src="{{asset('video/FinalFantasy.mp4')}}" {{-- autoplay="" --}} poster="{{asset('images/finalfanatasy.jpg')}}" controls=""></video>     	
-	  		</div>
-	  	
+	  		</div>  	
 	  </div>	
 	 
 </div>
 </section>
-		</div>     
+</div>     <br><br><br><br><br><br><br><br>
 	            
 
 	     
