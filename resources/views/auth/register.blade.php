@@ -1,11 +1,43 @@
-@extends('layouts.app')
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
+   <head>
 
-@section('content')
+      <!-- SITE TITTLE -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="csrf-token" content="{{ csrf_token() }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home</title>
+      
+      <link href="{{asset('css/fonts/fonts.css')}}" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <!-- CUSTOM CSS -->
+      <link href="{{asset('css/login.css')}}" rel="stylesheet">
+
+    </head>
+<body>
+
 <div class="container">
+    <div class='spacer40'></div>
+         <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="images/logo.png" alt="" style="width: 135px; height:80px;" >
+        </a>
+        <p class='text-black pull-right m-t-small'>
+            Not yet registered?
+            <a class="btn btn-static-primary btn-small m-l" href="{{ route('login') }}">Sign in
+                <i class='fa fa-arrow-right'></i>
+            </a>
+        </p>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <h1 class="text-center text-black" style="padding-right: 494px;">
+                     Register
+                </h1>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
@@ -63,7 +95,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-default btn-signin">
                                     Register
                                 </button>
                             </div>
@@ -74,4 +106,9 @@
         </div>
     </div>
 </div>
-@endsection
+
+
+<script src="{{ asset('js/app.js') }}"></script>
+</body>
+
+</html>

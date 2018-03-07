@@ -124,53 +124,46 @@ button, html [type="button"], [type="reset"], [type="submit"] {
   Footer Part 
 ============*/
 
+/*.back{
+  position: relative;
+}*/
+.tiltsecond{
+    content: '';
+    display: block;
+    /*position: absolute;*/
+    width: 100%;
+    height: 350px;
+    background: #2E2A51;
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    z-index: 0;
+    top: -170px;
+    z-index: 1;
+    box-shadow: rgba(112,128,175,0.2) 0 -16px 24px;
+}
+.tiltbodysecond{
+  position: relative;
+  top:-236px;
+}
 
-.secondtilt{
+
+/*.fourthtilt{*/
   content: '';
   display: block;
   /*position: absolute;*/
   width: 100%;
-  height: 390px;
-  background: #3e396b;;
-  -ms-transform: skewY(-6deg);
-  transform: skewY(-6deg);
-  z-index: 0;
-  top: 1976px;
-  z-index: 1;
-  
-}
-
-.thirdtilt{
-  content: '';
-  display: block;
-  /*position: relative;*/
-  width: 100%;
-  height: 165px;
-  background: #2E2A51;;
-  -ms-transform: skewY(-6deg);
-  transform: skewY(-3deg);
-  z-index: 0;
-  top: 1933px;
-  z-index: 1;
-  
-}
-.fourthtilt{
-  content: '';
-  display: block;
-  /*position: relative;*/
-  width: 100%;
   height: 130px;
-  background: #1F1C3F;;
+  background: #12102E;
   -ms-transform: skewY(0deg);
   transform: skewY(0deg);
   z-index: 0;
-  top: 1847px;
-  z-index: 1;
-  
+  top: 520px;
+  z-index: 1;  
 }
-#footer {    
-    position: relative; !important;
-  /*  display: block;*/
-    padding-top: 877px;
-    
+
+/*.footers {    */
+    /*position: relative;*/
+    /*display: block;*/
+    top:-380px;
+    color: white;    
 }

@@ -1,10 +1,25 @@
-<div class="secondtilt" >  </div>
+{{-- 
+<div class="secondtilt" ></div>
 
-{{-- <div class="container"> --}}
-<footer id="footer">	
-	
+<div class="fourthtilt" > </div> 
+<footer class="footers">	
+	<div class="container">
 		<h2 class="text-center">Today's Quotes</h2>
-			<div class="row">
+			
+	</div>
+</div>
+</footer>
+
+	
+
+
+ --}}
+
+ 	<div class="tiltsecond" >  </div>
+		
+			<div class="container tiltbodysecond">
+				<h2 class="text-center">Today's Quotes</h2>
+			   <div class="row">
 				<div class="col-md-4">
 					<h3 class="text-center">Lorem Saying's</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -35,7 +50,6 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-<div class="thirdtilt" >  </div>
-<div class="fourthtilt" > </div> 
-</footer>
-{{-- 	</div> --}}
+			</div>
+	
+	</div>    
